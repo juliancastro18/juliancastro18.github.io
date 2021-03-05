@@ -1,16 +1,17 @@
 [
     {
+        "titulo": "Galería Ron Lawson",
+        "subtitulo": "Html, Css, Javascript",
+        "descripcion": "Acá va la descripción",
+        "img_url": "img/thumbs/lawson.jpg",
+        "proyecto_url": "lawson-gallery/index.html"
+    },
+    {
         "titulo": "videojuego 5 en 1",
         "subtitulo": "python, librería pygame",
         "descripcion": "Acá va la descripción, va todo lo que queres ponerle en la descripcion claramente. Puede ser mucho, puede ser poco, o puede ser una pavada como esta hecha para llenar espacio dentro la descripción, va todo lo que queres ponerle en la descripcion claramente. Puede ser mucho, puede ser poco, o puede ser una pavada como esta hecha para llenar espacio dentro de de la página.",
         "img_url": "https://static.addtoany.com/images/dracaena-cinnabari.jpg",
         "proyecto_url": null,
         "github_url": null
-    },
-    {
-        "titulo": "Título",
-        "subtitulo": "Subtítulo",
-        "descripcion": "Acá va la descripción",
-        "img_url": "https://www.infobae.com/new-resizer/fJUoorIbCdgMezroU1kIwmrZYLM=/1200x900/filters:format(jpg):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/VLMJYISJTRHNJOOAGOQAN3EDFM.jpg"
     }
 ]
