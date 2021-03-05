@@ -1,0 +1,137 @@
+/* CONTENEDOR */
+
+.proyecto-container {
+    box-sizing: content-box;
+    border-bottom: 1px solid var(--azul-claro);
+    align-items: stretch;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 1.5em 0;
+    min-height: 300px;
+}
+
+.proyecto-container:last-child {
+    border: none;
+}
+
+
+/* IMAGEN */
+
+.img-content {
+    flex-basis: 40%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    max-height: 300px;
+}
+
+
+/* TEXTO */
+
+.text-container {
+    flex-basis: 60%;
+    flex-grow: 1;
+    padding-left: 1.5rem;
+}
+
+.text-container h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.text-container h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--azul-claro);
+}
+
+.text-container p {
+    color: var(--gris-oscuro)
+}
+
+
+/* BOTONES */
+
+.botones-container {
+    display: flex;
+}
+
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 0.4rem 0.6rem;
+    margin-right: 0.7rem;
+    min-width: 6rem;
+}
+
+.btn:last-child {
+    margin-right: 0;
+}
+
+.btn:hover:not(.disabled) {
+    font-weight: bolder;
+}
+
+.btn.ver {
+    color: var(--blanco);
+    background-color: var(--azul-oscuro);
+    border-color: var(--azul-oscuro);
+}
+
+.btn.github {
+    color: var(--azul-oscuro);
+    border-color: var(--azul-oscuro);
+}
+
+.btn.disabled {
+    cursor: default;
+    border-color: var(--gris-claro);
+}
+
+.btn.github.disabled {
+    color: var(--gris-claro);
+    background-color: inherit;
+}
+
+.btn.ver.disabled {
+    color: var(--blanco);
+    background-color: var(--gris-claro);
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 630px){
+    .proyecto-container {
+        padding: 2.5rem 0;
+        flex-wrap: wrap;
+    }
+
+    .proyecto-container:first-child {
+        padding-top: 0;
+    }
+    .proyecto-container:last-child {
+        padding-bottom: 0;
+    }
+
+    .img-content {
+        flex-basis: 100%;
+    }
+    .text-container {
+        flex-basis: 100%;
+        padding-left: 0;
+        padding-top: 1.5rem;
+    }
+
+    .botones-container {
+        padding-top: 0.5rem;
+    }
+
+    .botones-container > *{
+        flex-grow: 1;
+    }
+
+}
