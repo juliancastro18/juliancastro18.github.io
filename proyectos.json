@@ -1,17 +1,19 @@
 [
     {
-        "titulo": "Galería Ron Lawson",
-        "subtitulo": "Html, Css, Javascript",
-        "descripcion": "Acá va la descripción",
-        "img_url": "img/thumbs/lawson.jpg",
-        "proyecto_url": "lawson-gallery/index.html"
-    },
-    {
         "titulo": "videojuego 5 en 1",
         "subtitulo": "python, librería pygame",
-        "descripcion": "Acá va la descripción, va todo lo que queres ponerle en la descripcion claramente. Puede ser mucho, puede ser poco, o puede ser una pavada como esta hecha para llenar espacio dentro la descripción, va todo lo que queres ponerle en la descripcion claramente. Puede ser mucho, puede ser poco, o puede ser una pavada como esta hecha para llenar espacio dentro de de la página.",
-        "img_url": "https://static.addtoany.com/images/dracaena-cinnabari.jpg",
-        "proyecto_url": null,
-        "github_url": null
+        "descripcion": "Se buscó integrar videojuegos clásicos en un mismo proyecto mediante transiciones orgánicas y una puntuación centralizada. Los juegos se suceden en un bucle infinito aumentando su dificultad hasta que el jugador pierde.",
+        "img_url": "img/thumbs/5in1.png",
+        "proyecto_obj": {"btn_name": "descarga", "url": "https://github.com/juliancastro18/tpseminario/raw/master/5in1.rar"},
+        "btn_extra": {"btn_name": "video", "class": "video-btn", "value": "dyyGB_A7ap4"},
+        "github_url": "https://github.com/juliancastro18/tpseminario"
+    },
+    {
+        "titulo": "galería dinámica",
+        "subtitulo": "html, css, javascript",
+        "descripcion": "Reimaginé la galería digital de un artista a modo de práctica. Diseño responsive, transiciones animadas entre imágenes y simulación de paisaje 3D con técnica Parallax.",
+        "img_url": "img/thumbs/lawson.jpg",
+        "proyecto_obj": {"url": "lawson-gallery/index.html"},
+        "github_url": "https://github.com/juliancastro18/lawson-gallery"
     }
 ]

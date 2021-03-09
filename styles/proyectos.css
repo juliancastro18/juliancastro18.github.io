@@ -1,39 +1,42 @@
 /* CONTENEDOR */
 
-.proyecto-container {
+.proyectos-container {
     box-sizing: content-box;
-    border-bottom: 1px solid var(--azul-claro);
-    align-items: stretch;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding: 1.5em 0;
+    display: grid;
+    grid-template-columns: minmax(200px, 400px) auto;
+    column-gap: 1.5rem;
+    row-gap: 2.5rem;
     min-height: 300px;
 }
 
-.proyecto-container:last-child {
-    border: none;
+/* DIVISOR */
+
+.divisor {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
+.linea {
+    position: absolute;
+    left: 0;
+    border-top: 1px dotted var(--gris-oscuro);
+    width: 100%;
+}
+
+.divisor:last-child {
+    display: none;
+}
 
 /* IMAGEN */
 
 .img-content {
-    flex-basis: 40%;
     width: 100%;
-    object-fit: cover;
-    object-position: center center;
-    max-height: 300px;
+    height: auto;
+    border: 4px solid white;
 }
 
 
 /* TEXTO */
-
-.text-container {
-    flex-basis: 60%;
-    flex-grow: 1;
-    padding-left: 1.5rem;
-}
 
 .text-container h2 {
     text-transform: uppercase;
@@ -102,35 +105,72 @@
 }
 
 
+/* VIDEO CONTAINER */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5)
+}
+
+.modal-content {
+    background-color: var(--blanco);
+    margin: 20vh auto;
+    width: 100%;
+    max-width: 640px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),
+                0 7px 20px 0 rgba(0,0,0,0.17);
+    animation-name: modalopen;
+    animation-duration: 0.2s;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 75%; 
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes modalopen{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 630px){
-    .proyecto-container {
-        padding: 2.5rem 0;
-        flex-wrap: wrap;
+
+    .proyectos-container {
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
     }
 
-    .proyecto-container:first-child {
-        padding-top: 0;
-    }
-    .proyecto-container:last-child {
-        padding-bottom: 0;
-    }
-
-    .img-content {
-        flex-basis: 100%;
-    }
-    .text-container {
-        flex-basis: 100%;
-        padding-left: 0;
-        padding-top: 1.5rem;
+    .divisor {
+        grid-column-start: 0;
+        grid-column-end: 1;
+        padding: 1rem 0;
     }
 
     .botones-container {
         padding-top: 0.5rem;
     }
-
     .botones-container > *{
+        flex-basis: 0;
         flex-grow: 1;
     }
 
