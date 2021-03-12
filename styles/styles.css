@@ -171,7 +171,7 @@ footer {
     }
 
     .navbar-links li:first-child a {
-        border-top: 1px solid var(--azul-claro);
+        border-top: 1px solid var(--azul-oscuro);
     }
 
     .navbar-links ul {
@@ -184,6 +184,7 @@ footer {
     }
 
     .navbar-links.active {
+        background-color: var(--azul-claro);
         display: flex;
     }
 }

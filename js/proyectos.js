@@ -12,10 +12,10 @@ const verDisabled = () => (
     `<a class="btn ver disabled">ver</a>`
 )
 const verBtn = proyecto_obj => (
-    `<a class="btn ver" href="${proyecto_obj.url ? proyecto_obj.url : '#'}">${proyecto_obj.btn_name ? proyecto_obj.btn_name : "ver"}</a>`
+    `<a class="btn ver" href="${proyecto_obj.url ? proyecto_obj.url : '#'}" ${proyecto_obj.new_tab && proyecto_obj.new_tab === true ? "target='_blank'" : ""}>${proyecto_obj.btn_name ? proyecto_obj.btn_name : "ver"}</a>`
 )
 const btnExtra = btn_extra => (
-    `<a data-value="${btn_extra.value ? btn_extra.value : ""}" class="btn ver ${btn_extra.class ? btn_extra.class : ""}" href="${btn_extra.url ? btn_extra.url : "#video"}">${btn_extra.btn_name ? btn_extra.btn_name : "ver"}</a>`
+    `<a data-value="${btn_extra.value ? btn_extra.value : ""}" class="btn ver ${btn_extra.class ? btn_extra.class : ""}" href="${btn_extra.url ? btn_extra.url : "#video"}" ${btn_extra.new_tab && btn_extra.new_tab === true ? "target='_blank'" : ""}>${btn_extra.btn_name ? btn_extra.btn_name : "ver"}</a>`
 )
 
 // CARGAR PROYECTOS
@@ -37,7 +37,7 @@ function getProyectos() {
                         <div class="botones-container">
                             ${proyecto.proyecto_obj ? verBtn(proyecto.proyecto_obj) : verDisabled()}
                             ${proyecto.btn_extra ? btnExtra(proyecto.btn_extra) : ""}
-                            <a class="btn github ${proyecto.github_url ? "" : "disabled"}" href="${proyecto.github_url ? proyecto.github_url : "#"}">github</a>
+                            <a class="btn github ${proyecto.github_url ? "" : "disabled"}" href="${proyecto.github_url ? proyecto.github_url : "#"}" target="_blank">github</a>
                         </div>
                     </div>
 

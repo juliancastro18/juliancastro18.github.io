@@ -13,8 +13,8 @@
         "subtitulo": "java",
         "descripcion": "Trabajo grupal en el que se debió implementar la compra digital de carritos y la gestión de turnos de retiro, entregas a domicilio y ofertas. Se incluyen validaciones, excepciones, y demás funcionalidades detalladas en el enunciado.",
         "img_url": "img/thumbs/comercio.png",
-        "proyecto_obj": {"btn_name": "ver test", "url": "codigo_comercio.html"},
-        "btn_extra": {"btn_name": "enunciado", "url":"https://github.com/juliancastro18/tp-integrador-ioo/raw/master/TP%20Orientaci%C3%B3n%20a%20Objetos%20I%20%E2%80%93%202020%20(e-commerce)%20V3.pdf"},
+        "proyecto_obj": {"btn_name": "ver test", "url": "codigo_comercio.html", "new_tab": true},
+        "btn_extra": {"btn_name": "enunciado", "url":"https://github.com/juliancastro18/tp-integrador-ioo/raw/master/TP%20Orientaci%C3%B3n%20a%20Objetos%20I%20%E2%80%93%202020%20(e-commerce)%20V3.pdf", "new_tab": true},
         "github_url": "https://github.com/juliancastro18/tp-integrador-ioo"
     },
     {
@@ -31,7 +31,7 @@
         "subtitulo": "html, css, javascript",
         "descripcion": "Repensé la galería digital de un artista a modo de práctica. Diseño responsive, transiciones animadas entre imágenes y simulación de paisaje 3D con técnica Parallax.",
         "img_url": "img/thumbs/lawson.jpg",
-        "proyecto_obj": {"url": "lawson-gallery/index.html"},
+        "proyecto_obj": {"url": "lawson-gallery/index.html", "new_tab": true},
         "github_url": "https://github.com/juliancastro18/lawson-gallery"
     }
 ]
