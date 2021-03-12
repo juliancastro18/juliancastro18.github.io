@@ -2,16 +2,34 @@
     {
         "titulo": "videojuego 5 en 1",
         "subtitulo": "python, librería pygame",
-        "descripcion": "Se buscó integrar videojuegos clásicos en un mismo proyecto mediante transiciones orgánicas y una puntuación centralizada. Los juegos se suceden en un bucle infinito aumentando su dificultad hasta que el jugador pierde.",
+        "descripcion": "Se buscó integrar varios videojuegos clásicos en un mismo proyecto mediante transiciones orgánicas y una puntuación centralizada. Los juegos se suceden en un bucle infinito aumentando su dificultad hasta que el jugador pierde.",
         "img_url": "img/thumbs/5in1.png",
         "proyecto_obj": {"btn_name": "descarga", "url": "https://github.com/juliancastro18/tpseminario/raw/master/5in1.rar"},
         "btn_extra": {"btn_name": "video", "class": "video-btn", "value": "dyyGB_A7ap4"},
         "github_url": "https://github.com/juliancastro18/tpseminario"
     },
     {
+        "titulo": "sistema para comercio",
+        "subtitulo": "java",
+        "descripcion": "Trabajo grupal en el que se debió implementar la compra digital de un carrito y la gestión de turnos de retiro, entregas a domicilio y ofertas. Se incluyen validaciones, excepciones, y demás funcionalidades detalladas en el enunciado.",
+        "img_url": "img/thumbs/comercio.png",
+        "proyecto_obj": {"btn_name": "ver test", "url": "codigo_comercio.html"},
+        "btn_extra": {"btn_name": "enunciado", "url":"https://github.com/juliancastro18/tp-integrador-ioo/raw/master/TP%20Orientaci%C3%B3n%20a%20Objetos%20I%20%E2%80%93%202020%20(e-commerce)%20V3.pdf"},
+        "github_url": "https://github.com/juliancastro18/tp-integrador-ioo"
+    },
+    {
+        "titulo": "procesamiento de lotes",
+        "subtitulo": "c++, java",
+        "descripcion": "Lectura y escritura de archivos, creación y manipulación de listas enlazadas con su respectiva estructura de datos, desarrollo de algoritmos de ordenación/agrupamiento y filtrado. Proyecto original en C++, posteriormente rehecho en Java implementando una interfaz gráfica.",
+        "img_url": "img/thumbs/lotes.png",
+        "proyecto_obj": {"btn_name": "descarga", "url": "https://github.com/juliancastro18/TP-Formas/raw/master/ProcesamientoLotes.rar"},
+        "btn_extra": {"btn_name": "video", "class": "video-btn", "value": "IS912ZZRPxA"},
+        "github_url": "https://github.com/juliancastro18/TP-Formas"
+    },
+    {
         "titulo": "galería dinámica",
         "subtitulo": "html, css, javascript",
-        "descripcion": "Reimaginé la galería digital de un artista a modo de práctica. Diseño responsive, transiciones animadas entre imágenes y simulación de paisaje 3D con técnica Parallax.",
+        "descripcion": "Repensé la galería digital de un artista a modo de práctica. Diseño responsive, transiciones animadas entre imágenes y simulación de paisaje 3D con técnica Parallax.",
         "img_url": "img/thumbs/lawson.jpg",
         "proyecto_obj": {"url": "lawson-gallery/index.html"},
         "github_url": "https://github.com/juliancastro18/lawson-gallery"

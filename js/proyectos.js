@@ -1,8 +1,22 @@
 let player;
 const modal = document.querySelector('#simpleModal');
+const modalContent = document.querySelector('.modal-content')
 let videoBtns = document.querySelectorAll('.video-btn');
 let playerCreado = false;
 let playerReady = false;
+
+
+// FUNCIONES DE BOTONES
+
+const verDisabled = () => (
+    `<a class="btn ver disabled">ver</a>`
+)
+const verBtn = proyecto_obj => (
+    `<a class="btn ver" href="${proyecto_obj.url ? proyecto_obj.url : '#'}">${proyecto_obj.btn_name ? proyecto_obj.btn_name : "ver"}</a>`
+)
+const btnExtra = btn_extra => (
+    `<a data-value="${btn_extra.value ? btn_extra.value : ""}" class="btn ver ${btn_extra.class ? btn_extra.class : ""}" href="${btn_extra.url ? btn_extra.url : "#video"}">${btn_extra.btn_name ? btn_extra.btn_name : "ver"}</a>`
+)
 
 // CARGAR PROYECTOS
 
@@ -21,8 +35,8 @@ function getProyectos() {
                         <h3>${proyecto.subtitulo}</h3>
                         <p>${proyecto.descripcion}</p>
                         <div class="botones-container">
-                            <a class="btn ver ${proyecto.proyecto_obj ? "" : "disabled"}" href="${proyecto.proyecto_obj.url ? proyecto.proyecto_obj.url : "#"}">${proyecto.proyecto_obj.btn_name ? proyecto.proyecto_obj.btn_name : "ver"}</a>
-                            ${proyecto.btn_extra ? `<a data-value="${proyecto.btn_extra.value ? proyecto.btn_extra.value : ""}" class="btn ver ${proyecto.btn_extra.class ? proyecto.btn_extra.class : ""}" href="${proyecto.btn_extra.url ? proyecto.btn_extra.url : "#video"}">${proyecto.btn_extra.btn_name ? proyecto.btn_extra.btn_name : "ver"}</a>` : ""}
+                            ${proyecto.proyecto_obj ? verBtn(proyecto.proyecto_obj) : verDisabled()}
+                            ${proyecto.btn_extra ? btnExtra(proyecto.btn_extra) : ""}
                             <a class="btn github ${proyecto.github_url ? "" : "disabled"}" href="${proyecto.github_url ? proyecto.github_url : "#"}">github</a>
                         </div>
                     </div>
@@ -37,11 +51,16 @@ function getProyectos() {
     })
 };
 
-
 // FUNCIONES MODAL
 
 const openModal = (videoUrl) => {
     crearPlayerYT() //si no está cargado el script, lo cargo
+
+    if(videoUrl==="dyyGB_A7ap4"){
+        modalContent.classList.add('content-sd')
+    } else if (modalContent.classList.contains('content-sd')) {
+        modalContent.classList.remove('content-sd')
+    }
 
     const intervalo = setInterval(()=>{
         if(playerReady){

@@ -67,7 +67,7 @@
     border-radius: 3px;
     padding: 0.4rem 0.6rem;
     margin-right: 0.7rem;
-    min-width: 6rem;
+    min-width: 6.5rem;
 }
 
 .btn:last-child {
@@ -115,19 +115,26 @@
     top: 0;
     height: 100%;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: rgba(0,0,0,0.5)
 }
 
 .modal-content {
     background-color: var(--blanco);
-    margin: 20vh auto;
-    width: 100%;
-    max-width: 640px;
+    margin: 72px auto 0 auto;
+    width: calc(100vh * 1.33 - 144px * 1.33); /* me inspiré */
+    min-width: 640px;
+    max-width: 100%;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),
                 0 7px 20px 0 rgba(0,0,0,0.17);
     animation-name: modalopen;
     animation-duration: 0.2s;
+}
+
+.content-sd {
+    margin-top: calc(50vh - 240px);
+    max-width: 640px;
+    width: auto;
 }
 
 .iframe-container{
@@ -166,12 +173,23 @@
         padding: 1rem 0;
     }
 
+    .btn {
+        min-width: 0;
+    }
+
     .botones-container {
         padding-top: 0.5rem;
     }
     .botones-container > *{
         flex-basis: 0;
         flex-grow: 1;
+    }
+
+    .modal-content {
+        min-width: auto;
+    }
+    .content-sd {
+        margin-top: 72px;
     }
 
 }

@@ -1,7 +1,7 @@
 document.write(`<div class="nav-stripe sticky">
 <nav class="navbar">
     <div class="wrapper">
-        <div class="brand-title"><h1>Julian Castro</h1></div>
+        <div class="brand-title"><a href="index.html"><h1>Julian Castro</h1></a></div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
