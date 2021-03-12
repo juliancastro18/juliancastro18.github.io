@@ -18,9 +18,17 @@
         "github_url": "https://github.com/juliancastro18/tp-integrador-ioo"
     },
     {
+        "titulo": "frontend e-commerce",
+        "subtitulo": "react, material-ui, commerce.js",
+        "descripcion": "Proyecto de tienda online <a style='text-decoration: underline' href='https://www.youtube.com/watch?v=377AQ0y6LPA'>basado en un tutorial</a>. Se implementa carrito, categorías, ordenación, checkout. El backend es gestionado por la plataforma Commerce.js, y se integra haciendo uso de su API.",
+        "img_url": "img/thumbs/tecnoshop.jpg",
+        "proyecto_obj": {"url": "/e-commerce-react", "new_tab": true},
+        "github_url": "https://github.com/juliancastro18/e-commerce-react"
+    },
+    {
         "titulo": "procesamiento de lotes",
         "subtitulo": "c++, java",
-        "descripcion": "Lectura y escritura de archivos, creación y manipulación de listas enlazadas con su respectiva estructura de datos, desarrollo de algoritmos de ordenación/agrupamiento y filtrado. Proyecto original en C++, posteriormente rehecho en Java implementando una interfaz gráfica.",
+        "descripcion": "Lectura y escritura de archivos, creación y manipulación de listas enlazadas con su respectiva estructura de datos, desarrollo de algoritmos de ordenación/agrupamiento y filtrado. Proyecto original en C++, posteriormente rehecho en Java con interfaz gráfica.",
         "img_url": "img/thumbs/lotes.png",
         "proyecto_obj": {"btn_name": "descarga", "url": "https://github.com/juliancastro18/TP-Formas/raw/master/ProcesamientoLotes.rar"},
         "btn_extra": {"btn_name": "video", "class": "video-btn", "value": "IS912ZZRPxA"},
