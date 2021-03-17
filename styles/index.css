@@ -13,7 +13,6 @@
     /* ratio: 2:3 */
     overflow: hidden;
     position: relative;
-    min-height: 100%;
     max-height: calc(80vh - 72px - 6em);
 }
 
@@ -22,11 +21,12 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(3/2 * 100%);
-  }
+    padding-bottom: calc(1.5 * 100%);
+}
 
 .sketchfab-embed-wrapper iframe {
     display: none;
+    opacity: 0.9;
     height: calc(100% + 6px);
     width: 300%;
     position: relative;

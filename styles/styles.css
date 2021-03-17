@@ -38,7 +38,6 @@ body {
 
 .nav-stripe {
     background-color: var(--azul-claro);
-    height: 72px;
     z-index: 99;
 }
 
@@ -64,6 +63,9 @@ body {
     font-size: 1.8rem;
     padding-left: 1.5rem;
     color: white;
+    height: 71px;
+    display: flex;
+    align-items: center;
 }
 
 .brand-title h1 {
