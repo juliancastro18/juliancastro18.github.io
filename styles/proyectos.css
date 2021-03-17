@@ -74,9 +74,11 @@
     margin-right: 0;
 }
 
-.btn:hover:not(.disabled) {
-    /* font-weight: bolder; */
+.btn.ver:hover:not(.disabled) {
     text-shadow: 0px 0px 1px white;
+}
+.btn.github:hover:not(.disabled) {
+    text-shadow: 0px 0px 1px var(--azul-oscuro);
 }
 
 .btn.ver {
