@@ -1,0 +1,141 @@
+/* GENERAL */
+
+main {
+    max-width: 750px;
+}
+
+p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+/* HEADER */
+
+#photo {
+    display: block;
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 100px;
+    max-width: 250px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.btn-container i::before {
+    width: 1.5rem;
+    display: block;
+    position: relative;
+    left: -20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#title-name {
+    /* line-height: 0.9; */
+    display: none;
+    font-weight: 500;
+    flex-grow: 1;
+    font-size: 2.4rem;
+}
+
+.descarga {
+    cursor: pointer;
+    position: absolute;
+    align-self: flex-end;
+}
+
+.descarga:hover {
+    color: var(--azul-claro);
+}
+
+/* LAYOUT */
+
+.outer-container {
+    padding-bottom: 2rem;
+}
+
+.title {
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 1px solid var(--azul-oscuro);
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-bottom: 1rem;
+    column-gap: 1.5rem;
+}
+
+.item-container:last-child {
+    padding-bottom: 0;
+}
+
+.desc-title {
+    font-weight: 500;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container span {
+    font-weight: 500;
+    display: block;
+    padding-right: 1.5rem;
+}
+
+@media (max-width: 510px) {
+    .descarga {
+        position: inherit;
+        align-self: auto;
+    }
+
+    .item-container {
+        grid-template-columns: 1fr;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    #photo {
+        margin-bottom: 2rem;
+    }
+
+    .side {
+        order: 2;
+    }
+
+    .desc {
+        order: 1;
+    }
+}
+
+/* DESCOMENTAR PARA CREAR PDF */
+
+/* #photo {
+    border: none;
+}
+.nav-stripe, .nav-spacing, #download, footer {
+    display: none;
+}
+#title-name {
+    display: block;
+}
+.title {
+    border-bottom: 2px solid var(--azul-oscuro);
+} */

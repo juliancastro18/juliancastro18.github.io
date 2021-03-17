@@ -35,12 +35,13 @@ client.init( uid, {
     success: function onSuccess( api ){
         api.start();
         api.addEventListener( 'viewerready', function() {
-            asd = api;
             console.log( 'Viewer is ready' );
             iframe.style.display = "block";
             setTimeout( () => {
-                loading.style.display = "none";
-
+                loading.classList.add("disabled");
+                setTimeout( ()=> {
+                    loading.classList.add("hidden");
+                }, 1000)
             }, 1500)
         } );
     },
