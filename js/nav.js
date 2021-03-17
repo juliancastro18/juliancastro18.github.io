@@ -42,6 +42,7 @@ hamburgerBtn.addEventListener('click', () => {
 navSpacing.style.height = navHeight + 'px';
 
 // Le asigno la clase "activo" al botón correspondiente según página actual
+if(page==="")page = "index"; //root = index
 botones.forEach( boton => {
     if (nombreHtmlFromPath(boton.href) === page){
         boton.classList.add('active');
