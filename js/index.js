@@ -42,11 +42,6 @@ client.init( uid, {
                 setTimeout( ()=> {
                     loading.classList.add("hidden");
                 }, 1000)
-                api.setCameraLookAt([0, 13, 10], [0, 10, 0], 4.3, function(err) {
-                    if (!err) {
-                        window.console.log('Camera moved');
-                    }
-                });
             }, 1500)
         } );
     },
