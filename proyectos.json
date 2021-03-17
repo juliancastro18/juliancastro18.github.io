@@ -20,7 +20,7 @@
     {
         "titulo": "frontend e-commerce",
         "subtitulo": "react, material-ui, commerce.js",
-        "descripcion": "Proyecto de tienda online <a style='text-decoration: underline' href='https://www.youtube.com/watch?v=377AQ0y6LPA'>basado en un tutorial</a>. Se implementa carrito, categorías, ordenación, checkout. El backend es gestionado por la plataforma Commerce.js, y se integra haciendo uso de su API.",
+        "descripcion": "Proyecto de tienda online. Se implementa carrito, categorías, ordenación, checkout. El backend es gestionado por la plataforma Commerce.js, y se integra haciendo uso de su API.",
         "img_url": "img/thumbs/tecnoshop.jpg",
         "proyecto_obj": {"url": "/e-commerce-react", "new_tab": true},
         "github_url": "https://github.com/juliancastro18/e-commerce-react"
