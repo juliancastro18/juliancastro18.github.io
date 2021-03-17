@@ -35,14 +35,13 @@ client.init( uid, {
     success: function onSuccess( api ){
         api.start();
         api.addEventListener( 'viewerready', function() {
-            console.log( 'Viewer is ready' );
             iframe.style.display = "block";
             setTimeout( () => {
                 loading.classList.add("disabled");
                 setTimeout( ()=> {
                     loading.classList.add("hidden");
                 }, 1000)
-            }, 1500)
+            }, 2000)
         } );
     },
     error: function onError() {
@@ -50,5 +49,6 @@ client.init( uid, {
     },
     autospin: 0.3,
     camera: 0,
-    scrollwheel: 0
+    scrollwheel: 0,
+    ui_hint: 0
 } );
