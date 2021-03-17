@@ -31,7 +31,7 @@ const botones = document.querySelectorAll('.navbar-btn');
 // Obtengo nombre de página
 const nombreHtmlFromPath = path => (path.split("/").pop().split(".html")[0]);
 const path = window.location.pathname;
-const page = nombreHtmlFromPath(path);
+let page = nombreHtmlFromPath(path);
 
 // Si se presiona el hamburger button muestro/oculto menú
 hamburgerBtn.addEventListener('click', () => {
