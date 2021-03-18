@@ -124,7 +124,7 @@
 
 .modal-content {
     background-color: var(--blanco);
-    margin: 72px auto 0 auto;
+    margin: 71px auto 0 auto;
     width: calc(100vh * 1.33 - 144px * 1.33); /* me inspiré */
     min-width: 640px;
     max-width: 100%;
