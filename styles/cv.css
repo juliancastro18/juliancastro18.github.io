@@ -28,7 +28,7 @@ h2 {
 .btn-container {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .btn-container i::before {
