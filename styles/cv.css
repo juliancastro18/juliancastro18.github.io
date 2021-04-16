@@ -155,4 +155,8 @@ h2 {
 }
 .title {
     border-bottom: 2px solid var(--azul-oscuro);
+}
+
+.flex-container span {
+    padding-right: 1.3rem;
 } */
