@@ -53,6 +53,10 @@
     color: var(--gris-oscuro);
 }
 
+.text-link {
+    text-decoration: underline;
+}
+
 
 /* BOTONES */
 
