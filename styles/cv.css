@@ -59,6 +59,10 @@ h2 {
     font-size: 2.4rem;
 }
 
+#contact-details p {
+    padding-top: 0.25rem;
+}
+
 .descarga {
     cursor: pointer;
     position: absolute;
@@ -103,14 +107,17 @@ h2 {
 }
 
 .flex-container {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
+    gap: 12px;
 }
 
-.flex-container span {
-    font-weight: 500;
-    display: block;
-    padding-right: 1.5rem;
+.exp-list {
+    padding-left: 1rem;
+}
+
+.exp-list li {
+    padding-bottom: 0.5rem;
 }
 
 @media (max-width: 510px) {
@@ -142,7 +149,7 @@ h2 {
 
 /* DESCOMENTAR PARA CREAR PDF */
 
-/* main{
+ /* main{
     box-shadow: none;
     padding-bottom: inherit;
     margin-bottom: inherit;
@@ -159,4 +166,4 @@ h2 {
 
 .flex-container span {
     padding-right: 1.3rem;
-} */
+}  */
