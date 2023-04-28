@@ -12,17 +12,17 @@ const verDisabled = () => (
     `<a class="btn ver disabled">ver</a>`
 )
 const verBtn = proyecto_obj => (
-    `<a class="btn ver" href="${proyecto_obj.url ? proyecto_obj.url : '#'}" ${proyecto_obj.new_tab && proyecto_obj.new_tab === true ? "target='_blank'" : ""}>${proyecto_obj.btn_name ? proyecto_obj.btn_name : "ver"}</a>`
+    `<a class="btn ver" href="${proyecto_obj.url ? proyecto_obj.url : '#'}" ${proyecto_obj.new_tab && proyecto_obj.new_tab === true ? "target='_blank'" : ""}>${proyecto_obj.btn_name ? proyecto_obj.btn_name : "view"}</a>`
 )
 const btnExtra = btn_extra => (
-    `<a data-value="${btn_extra.value ? btn_extra.value : ""}" class="btn ver ${btn_extra.class ? btn_extra.class : ""}" href="${btn_extra.url ? btn_extra.url : "#video"}" ${btn_extra.new_tab && btn_extra.new_tab === true ? "target='_blank'" : ""}>${btn_extra.btn_name ? btn_extra.btn_name : "ver"}</a>`
+    `<a data-value="${btn_extra.value ? btn_extra.value : ""}" class="btn ver ${btn_extra.class ? btn_extra.class : ""}" href="${btn_extra.url ? btn_extra.url : "#video"}" ${btn_extra.new_tab && btn_extra.new_tab === true ? "target='_blank'" : ""}>${btn_extra.btn_name ? btn_extra.btn_name : "view"}</a>`
 )
 
 // CARGAR PROYECTOS
 
 function getProyectos() {
     return new Promise(function(resolve, reject) {
-        fetch('proyectos.json')
+        fetch('projects.json')
         .then(res => res.json())
         .then(data => {
             let output = '<div class="proyectos-container">';

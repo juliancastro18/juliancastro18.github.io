@@ -1,0 +1,37 @@
+[
+    {
+        "titulo": "5 in 1 videogame",
+        "subtitulo": "python, pygame library",
+        "descripcion": "This project integrates several classic video games into a single one, through organic transitions and a centralized score. The games occur in an infinite loop, increasing in difficulty until the player loses.",
+        "img_url": "img/thumbs/5in1.png",
+        "proyecto_obj": {"btn_name": "download", "url": "https://github.com/juliancastro18/tpseminario/raw/master/5in1.rar"},
+        "btn_extra": {"btn_name": "video", "class": "video-btn", "value": "dyyGB_A7ap4"},
+        "github_url": "https://github.com/juliancastro18/tpseminario"
+    },
+    {
+        "titulo": "web system, crud and permissions request",
+        "subtitulo": "spring boot, hibernate, mysql, html5/css, bootstrap, javascript",
+        "descripcion": "Full stack academic project. Creation, modification and deletion of users and profiles. Login, authentication and authorization based on user profile. PDF generation. Permission registration and search based on different criteria. Display and generation of QR codes for mobile access. Cloud deployment using Render.<br><br><span style='font-size:small'>To access all these functionalities, log in using the default users 'admin1' and 'auditor1', with the passwords '123456' and '654321', respectively.</span></span>",
+        "img_url": "img/thumbs/crud.png",
+        "proyecto_obj": {"url": "https://grupo-21-oo2-2021.onrender.com/", "new_tab": true},
+        "btn_extra": {"btn_name": "assignment", "url":"https://raw.githubusercontent.com/juliancastro18/Grupo-21-OO2-2021/main/docs/OO2%20-%20TP%20Parte%201%2C%202%2C%203.pdf", "new_tab": true},
+        "github_url": "https://github.com/juliancastro18/Grupo-21-OO2-2021"
+    },
+    {
+        "titulo": "e-commerce frontend",
+        "subtitulo": "react, material-ui, commerce.js",
+        "descripcion": "Web shop based on a <a class='text-link' href='https://youtu.be/377AQ0y6LPA'>tutorial</a>. Features a cart, categories and checkout. Backend is handled by the platform Commerce.js using it's API. Product filtering and sorting.",
+        "img_url": "img/thumbs/tecnoshop.jpg",
+        "proyecto_obj": {"url": "/e-commerce-react", "new_tab": true},
+        "github_url": "https://github.com/juliancastro18/e-commerce-react"
+    },
+    {
+        "titulo": "batch processing",
+        "subtitulo": "c++, java",
+        "descripcion": "Reading and writing of files, creation and manipulation of linked lists with their respective data structure, development of sorting/grouping and filtering algorithms. Original project in C++, later remade in Java with a graphical interface.",
+        "img_url": "img/thumbs/lotes.png",
+        "proyecto_obj": {"btn_name": "download", "url": "https://github.com/juliancastro18/TP-Formas/raw/master/ProcesamientoLotes.rar"},
+        "btn_extra": {"btn_name": "video", "class": "video-btn", "value": "IS912ZZRPxA"},
+        "github_url": "https://github.com/juliancastro18/TP-Formas"
+    }
+]

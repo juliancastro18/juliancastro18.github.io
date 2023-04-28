@@ -11,10 +11,10 @@ document.write(`<div class="nav-stripe sticky">
     </div>
     <div class="navbar-links">
         <ul>
-            <li><a class="navbar-btn" href="index.html">Inicio</a></li>
-            <li><a class="navbar-btn" href="proyectos.html">Proyectos</a></li>
-            <li><a class="navbar-btn" href="cv.html">CV</a></li>
-            <li><a class="navbar-btn" href="contacto.html">Contacto</a></li>
+            <li><a class="navbar-btn" href="index.html">Home</a></li>
+            <li><a class="navbar-btn" href="projects.html">Projects</a></li>
+            <li><a class="navbar-btn" href="resume.html">Resume</a></li>
+            <li><a class="navbar-btn" href="contact.html">Contact</a></li>
         </ul>
     </div>
 </nav>
