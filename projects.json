@@ -11,7 +11,7 @@
     {
         "titulo": "web system, crud and permissions request",
         "subtitulo": "spring boot, hibernate, mysql, html5/css, bootstrap, javascript",
-        "descripcion": "Full stack academic project. Creation, modification and deletion of users and profiles. Login, authentication and authorization based on user profile. PDF generation. Permission registration and search based on different criteria. Display and generation of QR codes for mobile access. Cloud deployment using Render.<br><br><span style='font-size:small'>To access all these functionalities, log in using the default users 'admin1' and 'auditor1', with the passwords '123456' and '654321', respectively.</span></span>",
+        "descripcion": "Full stack academic project. Creation, modification and deletion of users and profiles. Login, authentication and authorization based on user profile. PDF generation. Permission registration and search based on different criteria. Display and generation of QR codes for mobile access. Cloud deployment using Render.<br><br><span style='font-size:small'>To access all these functionalities, log in using the default users 'admin1' and 'auditor1', with the passwords '123456' and '654321', respectively. Clicking on 'view' below will start a web service instance, it could take a couple of minutes to load (free tier limitation).</span></span>",
         "img_url": "img/thumbs/crud.png",
         "proyecto_obj": {"url": "https://grupo-21-oo2-2021.onrender.com/", "new_tab": true},
         "btn_extra": {"btn_name": "assignment", "url":"https://raw.githubusercontent.com/juliancastro18/Grupo-21-OO2-2021/main/docs/OO2%20-%20TP%20Parte%201%2C%202%2C%203.pdf", "new_tab": true},
