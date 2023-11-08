@@ -1,5 +1,10 @@
 /* MAIN */
 
+main {
+    display: flex;
+    height: calc(95% - 71px);
+}
+
 #main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;

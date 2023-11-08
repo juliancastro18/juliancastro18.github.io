@@ -35,7 +35,7 @@ function getProyectos() {
                         <h3>${proyecto.subtitulo}</h3>
                         <p>${proyecto.descripcion}</p>
                         <div class="botones-container">
-                            ${proyecto.proyecto_obj ? verBtn(proyecto.proyecto_obj) : verDisabled()}
+                            ${proyecto.proyecto_obj ? verBtn(proyecto.proyecto_obj) : ""}
                             ${proyecto.btn_extra ? btnExtra(proyecto.btn_extra) : ""}
                             <a class="btn github ${proyecto.github_url ? "" : "disabled"}" href="${proyecto.github_url ? proyecto.github_url : "#"}" target="_blank">github</a>
                         </div>

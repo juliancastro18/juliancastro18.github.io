@@ -34,6 +34,7 @@ body {
     background-color: var(--blanco);
     font-family: 'Roboto', sans-serif;
     position: relative;
+    height:100vh;
 }
 
 .nav-stripe {
