@@ -2,7 +2,7 @@
     {
         "titulo": "crud notes app",
         "subtitulo": "mongodb, node.js, express, react, tailwind, typescript",
-        "descripcion": "<p>Notes app heavily inspired in Google Keep's user interface and features. CRUD operations, user authorization (JWT), highlighted search results, responsive design, transitions. Backend developed using <a style='text-decoration: underline' href='https://www.softwareontheroad.com/ideal-nodejs-project-structure/'>Node.js best practices</a>.</><p>Coming up: Redux/RTK Query implementation, draggable notes, fixed notes, colored notes, archive, recycle bin, tags, admin role for reading feedback notes, deployment.</p>",
+        "descripcion": "<p>Notes app heavily inspired in Google Keep's user interface and features. CRUD operations, user authorization (JWT), highlighted search results, responsive design, transitions. Backend developed using <a style='text-decoration: underline' href='https://www.softwareontheroad.com/ideal-nodejs-project-structure/'>Node.js best practices</a>.</>",
         "img_url": "img/thumbs/mern.png",
         "btn_extra": {"btn_name": "video", "class": "video-btn", "value": "wUFO46mdpX8"},
         "github_url": "https://github.com/juliancastro18/mern-crud-auth"
