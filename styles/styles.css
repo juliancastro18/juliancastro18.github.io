@@ -48,17 +48,6 @@ body {
     width: 100%;
 }
 
-.navbar {
-    user-select: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--blanco);
-    max-width: var(--largo-max);
-    margin: 0 auto;
-    height: 100%;
-}
-
 .brand-title {
     text-transform: uppercase;
     font-size: 1.8rem;

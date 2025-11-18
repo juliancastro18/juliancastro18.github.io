@@ -1,0 +1,12 @@
+﻿2025-11-17 23:43:35:554 : ERROR vcfoundation::io::VCEndOfFile: WriteFile
+race:    1 00A165B2
+   2 00A10000
+   3 00A188CC
+   4 00A17AED
+   5 00A169E1
+   6 00A104AB
+   7 00A28BC6
+   8 75ED5D49
+   9 77BCD6DB
+  10 77BCD661
+
