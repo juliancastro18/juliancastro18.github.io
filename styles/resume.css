@@ -97,16 +97,18 @@ h2 {
   font-weight: 500;
 }
 
-.flex-container {
+.skills-container {
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 8px;
+  column-gap: 16px;
+  row-gap: 8px;
 }
 
-.flex-container > span {
-  background-color: var(--blanco);
-  padding: 0.5rem 0.8rem;
-  border-radius: 0.25rem;
+.exp-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 8px;
 }
 
 .exp-list {
